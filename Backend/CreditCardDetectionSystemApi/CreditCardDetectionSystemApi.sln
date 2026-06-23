@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardDetectionSystemApi", "CreditCardDetectionSystemApi.csproj", "{E462444B-2C0D-47CE-A978-14DE39F430B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCard-DataAccessLayer", "..\CreditCard-DataAccessLayer\CreditCard-DataAccessLayer.csproj", "{58E27DDC-76D7-4FBB-A658-8BE615A678BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCard-BusinessLayer", "..\CreditCard-BusinessLayer\CreditCard-BusinessLayer.csproj", "{1AD5959A-B2F3-4604-A882-2D870E76AC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML-Model", "..\ML-Model\ML-Model.csproj", "{CA88654B-AA4B-47F7-B567-430B7BF1FD18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Debug|x64.ActiveCfg = Debug|x64
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Debug|x64.Build.0 = Debug|x64
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Release|x64.ActiveCfg = Release|x64
+		{E462444B-2C0D-47CE-A978-14DE39F430B2}.Release|x64.Build.0 = Release|x64
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Debug|x64.ActiveCfg = Debug|x64
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Debug|x64.Build.0 = Debug|x64
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Release|x64.ActiveCfg = Release|x64
+		{58E27DDC-76D7-4FBB-A658-8BE615A678BF}.Release|x64.Build.0 = Release|x64
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Debug|x64.ActiveCfg = Debug|x64
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Debug|x64.Build.0 = Debug|x64
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Release|x64.ActiveCfg = Release|x64
+		{1AD5959A-B2F3-4604-A882-2D870E76AC3C}.Release|x64.Build.0 = Release|x64
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Debug|x64.ActiveCfg = Debug|x64
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Debug|x64.Build.0 = Debug|x64
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Release|x64.ActiveCfg = Release|x64
+		{CA88654B-AA4B-47F7-B567-430B7BF1FD18}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AE070A6-0579-4E23-8710-B35E8A7F7834}
+	EndGlobalSection
+EndGlobal
